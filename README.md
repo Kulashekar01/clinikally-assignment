@@ -1,79 +1,88 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-# Getting Started
+# Product Delivery Estimator App
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+This project is a **React Native** application designed to manage a catalog of 5,000 products and service 25,000 pincodes. The app calculates and displays estimated delivery dates based on the user-selected product and entered pincode, in coordination with associated logistics providers. The app handles various scenarios, such as invalid pincodes, out-of-stock products, and cutoff times for same-day delivery, ensuring a user-friendly and responsive UI.
 
-## Step 1: Start the Metro Server
+---
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Getting Started
 
-To start Metro, run the following command from the _root_ of your React Native project:
+**Note:** Make sure you have completed the React Native environment setup until the "Creating a new application" step.
+
+### Step 1: Start the Metro Server
+
+First, start **Metro**, the JavaScript bundler included with React Native.
+
+Run the following command from the root of the project:
 
 ```bash
-# using npm
+# Using npm
 npm start
 
 # OR using Yarn
 yarn start
 ```
 
-## Step 2: Start your Application
+### Step 2: Start the Application
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+Let Metro Bundler run in its terminal. In a new terminal, from the root of your project, use the following command to launch the app on an Android or iOS emulator:
 
-### For Android
+**For Android:**
 
 ```bash
-# using npm
+# Using npm
 npm run android
 
 # OR using Yarn
 yarn android
 ```
 
-### For iOS
+**For iOS:**
 
 ```bash
-# using npm
+# Using npm
 npm run ios
 
 # OR using Yarn
 yarn ios
 ```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+Once set up, you should see the app running on your Android Emulator or iOS Simulator, provided your environment setup is correct.
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+> You can also launch the app directly from **Android Studio** or **Xcode**.
 
-## Step 3: Modifying your App
+### Step 3: Modify the Application
 
-Now that you have successfully run the app, let's modify it.
+After successfully launching the app, open `App.tsx` in your preferred text editor to start making changes.
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+- **For Android**: Press the `R` key twice or select "Reload" from the Developer Menu (`Ctrl + M` on Windows/Linux or `Cmd ⌘ + M` on macOS) to see updates.
+- **For iOS**: Use `Cmd ⌘ + R` in the iOS Simulator to reload.
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+---
 
-## Congratulations! :tada:
+## Key Features
 
-You've successfully run and modified your React Native App. :partying_face:
+- **Product Selection and Delivery Estimation**: Select a product and enter a pincode to receive an estimated delivery date.
+- **Error Handling**:
+  - Invalid pincode entries.
+  - Out-of-stock products.
+  - Missing cutoff times for same-day delivery.
+- **Responsive, User-Friendly Interface**: Built with an emphasis on UI/UX best practices to ensure smooth and intuitive user interactions.
 
-### Now what?
+---
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+## Additional Resources
 
-# Troubleshooting
+For more information, consult the following resources:
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+- [React Native Website](https://reactnative.dev/)
+- [Getting Started Guide](https://reactnative.dev/docs/getting-started)
+- [React Native Blog](https://reactnative.dev/blog)
+- [React Native GitHub Repository](https://github.com/facebook/react-native)
 
-# Learn More
+---
 
-To learn more about React Native, take a look at the following resources:
+## Troubleshooting
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+If you encounter issues, consult the [React Native Troubleshooting Guide](https://reactnative.dev/docs/troubleshooting).
+
