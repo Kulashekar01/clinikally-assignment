@@ -86,5 +86,7 @@ For more information, consult the following resources:
 
 If you encounter issues, consult the [React Native Troubleshooting Guide](https://reactnative.dev/docs/troubleshooting).
 
+```
 created by: Kulashekar Inkollu
+
 
